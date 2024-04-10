@@ -64,7 +64,7 @@ Whether steps 4 and 5 happen on rising/falling edge depends on the `CPOL` config
 
 ![SPI_example](images/spi_network_transmission.svg)
 
-In the image above, the main first exchages data with the first sub by setting its corresponding `CS` line to low. After it finishes transmission with sub 1, it deactivates it and, afterwards, initiates communication with the second sub by setting its `CS` line to low. Notice that both main and sub read and write to the MOSI/MISO line simultaneously.
+In the image above, the main first exchanges data with the first sub by setting its corresponding `CS` line to low. After it finishes transmission with sub 1, it deactivates it and, afterwards, initiates communication with the second sub by setting its `CS` line to low. Notice that both main and sub read and write to the MOSI/MISO line simultaneously.
 
 ### SPI modes
 
